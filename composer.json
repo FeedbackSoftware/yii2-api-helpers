@@ -1,0 +1,23 @@
+{
+  "name": "fbacks/yii2-api-helpers",
+  "description": "A collection of useful helper functions for REST API development using Yii Framework 2.0",
+  "keywords": ["yii", "yii2", "extension", "helper", "rest", "api"],
+  "homepage": "https://github.com/FeedbackSoftware/yii2-api-helpers",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Feedback Software",
+      "email": "info@fbacks.com",
+      "homepage": "http://fbacks.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.35"
+  },
+  "autoload": {
+    "psr-4": {
+      "fbacks\\": "src"
+    }
+  }
+}
